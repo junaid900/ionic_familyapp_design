@@ -24,3 +24,319 @@
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
+
+@font-face {
+    font-family: "Abel";
+    font-style: normal;
+    font-weight: normal;
+    src: url("./assets/fonts/Abel/Abel-Regular.ttf");
+}
+// Poppins
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    src: url("./assets/fonts/Poppins/Poppins-SemiBold.ttf");
+}
+@font-face {
+    font-family: "Poppins";
+    font-style: italic;
+    font-weight: normal;
+    src: url("./assets/fonts/Poppins/Poppins-Italic.ttf");
+}
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 900;
+    src: url("./assets/fonts/Poppins/Poppins-ExtraBold.ttf");
+}
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: bold;
+    src: url("./assets/fonts/Poppins/Poppins-Bold.ttf");
+}
+// Philospoher
+@font-face {
+    font-family: "Philosopher";
+    font-style: normal;
+    font-weight: normal;
+    src: url("./assets/fonts/Philosopher/Philosopher-Regular.ttf");
+}
+@font-face {
+    font-family: "Philosopher";
+    font-style: italic;
+    font-weight: normal;
+    src: url("./assets/fonts/Philosopher/Philosopher-Italic.ttf");
+}
+@font-face {
+    font-family: "Philosopher";
+    font-style: normal;
+    font-weight: bold;
+    src: url("./assets/fonts/Philosopher/Philosopher-Bold.ttf");
+}
+// Manrope
+@font-face {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: normal;
+    src: url("./assets/fonts/Manrope/static/Manrope-Regular.ttf");
+}
+@font-face {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: bold;
+    src: url("./assets/fonts/Manrope/static/Manrope-Bold.ttf");
+}
+// FONTS END
+ion-toolbar{
+    background: white !important;
+}
+.header-translucent,
+.header-ios {
+    box-shadow: 0px 0px !important;
+    --ion-background-color: transparent !important;
+    background: transparent !important;
+}
+ion-title {
+    color: #070648;
+    font-weight: 500;
+}
+.in-toolbar {
+    // --background: var(--ion-color-primary) !important;
+    --background: transparent !important;
+}
+.toolbar-background {
+    // --ion-background-color: var(--ion-color-primary) !important;
+    --ion-background-color: transparent !important;
+}
+.header-ios ion-toolbar{
+    --border-width: 0 0 0 !important;
+}
+* {
+    font-family: "Abel";
+}
+
+.ios .segment-button-checked {
+    border-bottom: none !important;
+    color: black !important;
+}
+ion-segment-button ion-label {
+    margin: 0px !important;
+}
+.btn-close {
+    color: white;
+    --border-radius: 6px !important;
+    --background: rgb(0 0 0 / 6%) !important;
+}
+.segment-button-checked {
+    color: white !important;
+    // border-color: var(--ion-color-secondary-tint) !important;
+    border-bottom: solid white;
+    // background: white !important;
+    /* color: var(--color-checked); */
+}
+ion-segment-button {
+    color: rgb(220, 220, 220);
+    font-weight: 500;
+    min-height: 40px !important;
+    min-width: auto !important;
+    // font-size: 70%;
+}
+ion-row {
+    padding: 0;
+}
+ion-grid {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+ion-col {
+    padding: 0;
+}
+.sc-ion-input-md-h{
+    padding-left:14px !important;
+}
+ion-input{
+    --highlight-color-focused: transparent !important;
+    border-bottom: none !important;
+    text-align: left;
+    --padding-start: 18px !important;
+    color: #8a8d97 !important;
+    background: #F2F3F7;
+    border-radius: 10px;
+}
+.ion-valid.sc-ion-input-md-h{
+    --highlight-color: transparent !important;
+}
+ion-button{
+    --box-shadow: none !important;
+}
+
+ion-item{
+    --padding-start: 0px;
+    --padding-end: 0px;
+}
+ion-textarea{
+    --padding-start: 8px !important;
+}
+ion-item{
+    ion-label{
+        padding-left: 8px !important;
+    }
+}
+ion-back-button{
+    --color: white;
+}
+
+.pop-heading{
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--ion-color-primary-dark);
+}
+.philo{
+    font-family: 'Philosopher';
+
+}
+.pop{
+    font-family: 'Poppins';
+    // font-weight: lighter;
+}
+.manrope{
+    font-family: 'Manrope';
+    // font-weight: lighter;
+}
+.bold{
+    font-weight: bold;
+}
+// SPACING
+h2{
+    margin: 0;
+}
+.p-0 {
+    padding: 0;
+}
+.p-1{
+    padding: 1rem;
+}
+.p-2{
+    padding: 2rem;
+}
+.p-sm{
+    padding: .5rem;
+}
+.m-0 {
+    margin: 0;
+}
+.pr-1 {
+    padding-right: 1rem;
+}
+.pr-2 {
+    padding-right: 2rem;
+}
+.pr-3 {
+    padding-right: 3rem;
+}
+.pr-4 {
+    padding-right: 4rem;
+}
+.pl-1 {
+    padding-left: 1rem;
+}
+.pl-2 {
+    padding-left: 2rem;
+}
+.pl-3 {
+    padding-left: 3rem;
+}
+.pl-4 {
+    padding-left: 4rem;
+}
+.pl-sm {
+    padding-left: 0.4rem;
+}
+.pr-sm {
+    padding-right: 0.4rem;
+}
+.pt-sm {
+    padding-top: 0.4rem;
+    // padding-bottom: 0.4rem;
+}
+.pt-1 {
+    padding-top: 1rem;
+}
+.pt-2 {
+    padding-top: 2rem;
+}
+.pt-3 {
+    padding-top: 3rem;
+}
+.pt-4 {
+    padding-top: 4rem;
+}
+// Sementics
+.ph-1 {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.ph-2{
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+.pv-1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.pv-sm {
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+.ph-sm {
+    padding-right: 0.4rem;
+    padding-left: 0.4rem;
+}
+.pb-sm{
+    padding-bottom: 0.4rem;
+}
+.pb-1{
+    padding-bottom: 1rem;
+}
+.pb-2{
+    padding-bottom: 2rem;
+}
+.pb-2{
+    padding-bottom: 3rem;
+}
+// FONTS
+.bold {
+    font-weight: bold;
+}
+.f-xs {
+    font-size: 12px;
+}
+.f-sm {
+    font-size: 12px;
+}
+.f-md {
+    font-size: 16px;
+}
+.f-lg {
+    font-size: 20px;
+}
+.f-xl {
+    font-size: 24px;
+}
+
+ion-icon {
+    --ionicon-stroke-width: 16px;
+}
+.ion-flex {
+    display: flex;
+}
+.w-100 {
+    width: 100%;
+}
+.empty-layout-image-container{
+    padding-top: 4%;
+}

@@ -1,0 +1,22 @@
+.cart-img-container{
+    img{
+        width: 80%;
+    }
+}
+.cart-count{
+    color: var(--ion-color-primary-dark);
+    font-size: 16px;
+    padding: 0px 10px;
+}
+.cart-count-buttons-container{
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    padding-top: 4px;
+}
+.btn-cart-count{
+    font-size: 20px;
+}
+.trash-icon{
+    font-size: 18px;
+}

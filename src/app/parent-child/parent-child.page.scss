@@ -1,0 +1,82 @@
+ion-content {
+    --background: #f6f6f6;
+}
+ion-toolbar{
+    background: #f6f6f6 !important;
+    --ion-background-color: #f6f6f6 !important;
+}
+.btn-back-icon {
+    font-size: 39px;
+}
+.parent-child-container {
+    padding: 0px 20px 0px 20px;
+}
+.profile-card-container {
+    background: white;
+    border-radius: 14px;
+    padding: 8px 14px;
+    margin-top: 12px;
+}
+.profile-img-container {
+    img {
+        height: 14vw;
+        width: 14vw;
+        border-radius: 50px;
+    }
+}
+.name-container {
+    padding-left: 8px;
+    padding-top: 8px;
+}
+.txt-title {
+    color: #573353;
+}
+.txt-name {
+    color: #573353;
+    opacity: 0.5;
+}
+.txt-points {
+    font-size: 12px;
+    padding-right: 4px;
+}
+.point-icon {
+    font-size: 18px;
+    padding-right: 2px;
+}
+.points-container {
+    float: right;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    padding: 2px 4px;
+    border-radius: 6px;
+    border: 1px solid rgba(87, 51, 83, 0.1);
+}
+.green{
+    color: rgba(22, 158, 111, 1);
+}
+.red{
+    color: rgba(203, 81, 81, 1);
+}
+.tr-title{
+    font-size: 16px;
+}
+.txt-tr-point{
+    font-size: 14px;
+    padding-top: .2rem;
+}
+.tr-item-container{
+    background: white;
+    padding: 12px 18px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px 4px #e5e5e5;
+}
+.arrow-right-icon{
+    font-size: 28px;
+}
+.btn-delete-child{
+    text-transform: none;
+    --border-radius: 10px;
+}

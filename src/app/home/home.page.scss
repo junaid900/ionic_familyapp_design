@@ -25,3 +25,27 @@
 #container a {
   text-decoration: none;
 }
+.cart-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  ion-icon{
+    margin: 0;
+  }
+  p{
+    font-size: 10px;
+    padding-top: 2px;
+    text-transform: math-auto;
+    color: black;;
+  }
+}
+.home-container{
+  padding: 14px 10px 0px 10px;
+}
+.search-input{
+  display: flex;
+  align-items: center;
+}
+
+// ITEM STYLES

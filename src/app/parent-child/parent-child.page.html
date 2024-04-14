@@ -1,0 +1,90 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <!-- <ion-button (click)="goBack()">
+        <ion-icon class="btn-back-icon" src="../../assets/icon/back_button.svg"></ion-icon>
+      </ion-button> -->
+      <ion-button (click)="openDrawer()">
+        <ion-icon slot="start" src="../../assets/icon/menu.svg"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <!-- <ion-title>checkout</ion-title> -->
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <!-- <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">checkout</ion-title>
+    </ion-toolbar>
+  </ion-header> -->
+  <div class="parent-child-container">
+    <ion-grid fixed>
+      <ion-row class="profile-card-container">
+        <ion-col size="2">
+          <div class="profile-img-container">
+            <img src="../../assets/images/beauty.png" />
+          </div>
+        </ion-col>
+        <ion-col size="4">
+          <div class="name-container">
+            <h6 class="manrope txt-title bold m-0">Christine</h6>
+            <p class="manrope m-0 txt-name">Name</p>
+          </div>
+        </ion-col>
+        <ion-col size="6">
+          <div>
+            <div class="points-container">
+              <span class="manrope txt-points">1500 points</span>
+              <ion-icon class="point-icon" src="../../assets/icon/remove_red_outline.svg"></ion-icon>
+              <ion-icon class="point-icon" src="../../assets/icon/add_green_outline.svg"></ion-icon>
+            </div>
+          </div>
+        </ion-col>
+      </ion-row>
+      <ion-row class="pt-2">
+        <ion-col size="12">
+          <h3 class="pop m-0">Wallet History</h3>
+        </ion-col>
+        <ion-row class="ph-sm pt-1">
+          <ion-col size="12" class="pb-1">
+            <div class="tr-item-container">
+              <ion-row>
+                <ion-col class="12">
+                  <h4 class="pop m-0 tr-title">Shopping</h4>
+                  <p class="manrope m-0 txt-tr-point red">- 500 Points</p>
+                </ion-col>
+              </ion-row>
+            </div>
+          </ion-col>
+          <ion-col size="12" class="pb-1">
+            <div class="tr-item-container">
+              <ion-row class="ion-align-items-center">
+                <ion-col class="11">
+                  <h4 class="pop m-0 tr-title">Good Behaviour</h4>
+                  <p class="manrope m-0 txt-tr-point green">+ 1500 Points</p>
+                </ion-col>
+                <ion-col size="1">
+                  <ion-icon class="arrow-right-icon" src="../../assets/icon/arrow-right.svg"></ion-icon>
+                </ion-col>
+              </ion-row>
+            </div>
+          </ion-col>
+          <ion-col size="12" class="pb-1">
+            <div class="tr-item-container">
+              <ion-row>
+                <ion-col class="12">
+                  <h4 class="pop m-0 tr-title">Shopping</h4>
+                  <p class="manrope m-0 txt-tr-point red">- 500 Points</p>
+                </ion-col>
+              </ion-row>
+            </div>
+          </ion-col>
+        </ion-row>
+        <ion-col size="12" class="pt-1 ph-2">
+          <ion-button  class="manrope btn-delete-child" color="danger" shape="round" expand="full">Delete Child</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>

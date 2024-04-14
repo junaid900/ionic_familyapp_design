@@ -1,0 +1,29 @@
+<div class="cart-item-container">
+  <ion-grid fixed>
+    <ion-row>
+      <ion-col size="3" class="cart-img-container">
+        <img src="../../../../assets/images/item1.png" alt="">
+      </ion-col>
+      <ion-col size="7">
+        <div>
+          <p class="m-0 pt-1 philo bold">Watermelon Peperomia</p>
+          <ion-row>
+            <ion-col size="8">
+              <div class="cart-count-buttons-container">
+                <ion-icon (click)="addCount()" class="btn-cart-count" src="../../../../assets/icon/add_cart.svg"></ion-icon>
+                <ion-label class="cart-count pop">{{itemCount}}</ion-label>
+                <ion-icon (click)="removeCount()" class="btn-cart-count" src="../../../../assets/icon/remove_cart.svg"></ion-icon>
+              </div>
+            </ion-col>
+            <ion-col size="4" class="ion-text-center ion-flex ion-align-items-center">
+              <ion-icon class="trash-icon" src="../../../../assets/icon/trash_primary.svg"></ion-icon>
+            </ion-col>
+          </ion-row>
+        </div>
+      </ion-col>
+      <ion-col size="2" class="ion-text-center">
+        <p class="pop m-0 pt-1">50P</p>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</div>

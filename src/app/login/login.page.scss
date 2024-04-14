@@ -1,0 +1,45 @@
+.txt-welcome {
+    font-size: 22px;
+}
+.login-container {
+    padding: 9vh 8% 0 8%;
+}
+.social-container {
+    padding-top: 24px;
+}
+.social-button {
+    display: flex;
+    align-items: center;
+    border: solid #ebeaec;
+    border-radius: 6px;
+    padding: 12px 18px;
+    ion-icon {
+        padding-right: 20px;
+        font-size: 20px;
+    }
+    ion-text {
+        font-size: 14px;
+    }
+}
+.txt-or-login {
+    font-size: 12px;
+    color: #a1a4b2;
+}
+.txt-forget-password {
+    color: #3f414e;
+    font-size: 12px;
+}
+.txt-already-have-account {
+    font-size: 13px;
+    span {
+        color: var(--ion-color-primary);
+    }
+}
+.txt-password {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.password-eye-icon {
+    font-size: 21px;
+    padding: 11px 15px;
+}

@@ -1,0 +1,27 @@
+.btn-back-icon {
+    font-size: 39px;
+}
+.checkout-container {
+    padding: 0px 25px 0px 30px;
+}
+ion-footer {
+    background: #fff;
+    color: black;
+    box-shadow: 0px 0px !important;
+    .txt-total {
+        font-size: 20px;
+        // font-weight: bold;
+    }
+    .overview-container {
+        display: flex;
+        justify-content: space-between;
+        background: linear-gradient(259deg, #0d986a, #78d8a4);
+        border-radius: 25px 25px 0px 0px;
+        box-shadow: 0px -7px 18px 0px #bfbfbf;
+        color: white;
+        h5 {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    }
+}
